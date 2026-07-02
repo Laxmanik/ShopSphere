@@ -1,0 +1,115 @@
+###############################################################################
+# ShopSphere Monorepo .gitignore
+###############################################################################
+
+#########################################
+# Operating System
+#########################################
+.DS_Store
+Thumbs.db
+
+#########################################
+# IntelliJ IDEA
+#########################################
+.idea/
+*.iml
+*.iws
+*.ipr
+
+#########################################
+# VS Code
+#########################################
+.vscode/
+
+#########################################
+# Eclipse / STS
+#########################################
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+#########################################
+# NetBeans
+#########################################
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+
+#########################################
+# Maven
+#########################################
+**/target/
+
+# Keep target folders inside source directories (generated resources)
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+#########################################
+# Maven Wrapper
+#########################################
+# Ignore wrapper JAR only if you want it downloaded automatically.
+# Uncomment the next line if your team agrees.
+# **/.mvn/wrapper/maven-wrapper.jar
+
+#########################################
+# Logs
+#########################################
+*.log
+logs/
+
+#########################################
+# Environment Variables
+#########################################
+.env
+.env.*
+!.env.example
+
+#########################################
+# React / Node.js
+#########################################
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#########################################
+# Temporary Files
+#########################################
+*.tmp
+*.temp
+*.swp
+*.swo
+
+#########################################
+# Generated Documentation
+#########################################
+**/site/
+
+#########################################
+# Spring Boot
+#########################################
+HELP.md
+
+#########################################
+# Miscellaneous
+#########################################
+*.bak
+*.orig
+
+# Java
+backend/target/
+
+# React
+frontend/node_modules/
+frontend/dist/
